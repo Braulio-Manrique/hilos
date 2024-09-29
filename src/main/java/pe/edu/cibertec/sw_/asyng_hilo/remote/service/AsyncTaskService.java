@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 @Service
 public class AsyncTaskService {
 
-    private static final Logger log = LoggerFactory.getLogger(AsyncTaskService.class);
+
 
     @Async
     public CompletableFuture<String> OperacionPagoOnline(){
